@@ -1,6 +1,6 @@
 # ITMO DL NLP Course
 
-Домашние задания по курсу Deep Learning for NLP.
+Домашние задания по курсу Deep Learning + NLP.
 
 ## HW1: Классификация текстов по топикам
 
