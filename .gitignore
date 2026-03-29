@@ -211,3 +211,10 @@ __marimo__/
 *.csv.bz2
 *.csv.gz
 data/
+
+# Pretrained models
+*.tar
+*.bin
+*.zip
+model.bin
+navec_*.tar
