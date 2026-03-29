@@ -1,22 +1,41 @@
 [project]
-name = "itmo-dl-nlp-hw1"
-version = "0.1.0"
-description = "HW1: Text Classification with Lenta-ru-news dataset"
-requires-python = ">=3.10"
+name = "itmo-dl-nlp-course"
+version = "0.3.1"
+description = "ITMO DL NLP Course: HW1 (Classification), HW2 (Word2Vec), HW3 (NER Transformers with Natasha)"
+requires-python = ">=3.10,<3.11"
 dependencies = [
-    "corus>=0.10.0",
-    "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    "scikit-learn>=1.3.0",
+    # Core
+    "numpy>=1.23.0,<1.24.0",
+    "pandas>=1.5.0,<2.0.0",
+    "scikit-learn>=1.0.0,<1.1.0",
+    "tqdm>=4.42.0,<4.65.0",
+
+    # Visualization
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
+
+    # Jupyter
     "jupyterlab>=4.0.0",
     "ipykernel>=6.25.0",
-    "tqdm>=4.65.0",
+
+    # NLP basics (HW1, HW2)
+    "corus>=0.10.0",
     "pymorphy3>=2.0.0",
     "nltk>=3.8.0",
     "gensim>=4.3.0",
     "navec>=0.10.0",
+
+    # Transformers & NER (HW3)
+    # Базовая модель: cointegrated/rubert-tiny2
+    "torch>=2.0.0",
+    "transformers>=4.35.0",
+    "datasets>=2.14.0",
+    "seqeval>=1.2.2",
+    "accelerate>=0.24.0",
+
+    # Natasha NER для генерации синтетических данных (секция 6)
+    # Natasha - быстрая библиотека для русскоязычного NER на основе правил
+    "natasha>=1.6.0",
 ]
 
 [dependency-groups]
