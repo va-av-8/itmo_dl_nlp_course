@@ -218,3 +218,12 @@ data/
 *.zip
 model.bin
 navec_*.tar
+
+# macOS
+.DS_Store
+
+# HW artifacts
+meta.json
+model.txt
+results/
+.claude
