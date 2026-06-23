@@ -200,6 +200,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+.claude
 
 # Marimo
 marimo/_static/
@@ -218,3 +219,11 @@ data/
 *.zip
 model.bin
 navec_*.tar
+
+# macOS
+.DS_Store
+
+# HW3 artifacts
+meta.json
+model.txt
+results/
